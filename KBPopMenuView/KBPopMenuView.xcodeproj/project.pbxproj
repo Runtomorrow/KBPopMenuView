@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3DC4BB1F31685D00588614 /* KBPopMenuPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3DC4BA1F31685D00588614 /* KBPopMenuPath.m */; };
+		CD5ADEAE1F2F186F0031193B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADEAD1F2F186F0031193B /* main.m */; };
+		CD5ADEB11F2F186F0031193B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADEB01F2F186F0031193B /* AppDelegate.m */; };
+		CD5ADEB41F2F186F0031193B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADEB31F2F186F0031193B /* ViewController.m */; };
+		CD5ADEB71F2F186F0031193B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5ADEB51F2F186F0031193B /* Main.storyboard */; };
+		CD5ADEB91F2F186F0031193B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5ADEB81F2F186F0031193B /* Assets.xcassets */; };
+		CD5ADEBC1F2F186F0031193B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5ADEBA1F2F186F0031193B /* LaunchScreen.storyboard */; };
+		CD5ADEC71F2F186F0031193B /* KBPopMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADEC61F2F186F0031193B /* KBPopMenuViewTests.m */; };
+		CD5ADED21F2F186F0031193B /* KBPopMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADED11F2F186F0031193B /* KBPopMenuViewUITests.m */; };
+		CD5ADEE11F2F18F00031193B /* KBPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5ADEE01F2F18F00031193B /* KBPopMenuView.m */; };
+		CD7243561F308E9A00FB7A43 /* KBRectConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7243551F308E9A00FB7A43 /* KBRectConst.m */; };
+		CD8935A71F346FD100A99332 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8935A61F346FD100A99332 /* TestVC.m */; };
+		CD8935AA1F34713700A99332 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8935A91F34713700A99332 /* TestView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5ADEC31F2F186F0031193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5ADEA11F2F186F0031193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5ADEA81F2F186F0031193B;
+			remoteInfo = KBPopMenuView;
+		};
+		CD5ADECE1F2F186F0031193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5ADEA11F2F186F0031193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5ADEA81F2F186F0031193B;
+			remoteInfo = KBPopMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3DC4B91F31685D00588614 /* KBPopMenuPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBPopMenuPath.h; path = ../KBPopMenuPath.h; sourceTree = "<group>"; };
+		CD3DC4BA1F31685D00588614 /* KBPopMenuPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBPopMenuPath.m; path = ../KBPopMenuPath.m; sourceTree = "<group>"; };
+		CD5ADEA91F2F186F0031193B /* KBPopMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBPopMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5ADEAD1F2F186F0031193B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5ADEAF1F2F186F0031193B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5ADEB01F2F186F0031193B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5ADEB21F2F186F0031193B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD5ADEB31F2F186F0031193B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD5ADEB61F2F186F0031193B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5ADEB81F2F186F0031193B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5ADEBB1F2F186F0031193B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5ADEBD1F2F186F0031193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5ADEC21F2F186F0031193B /* KBPopMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBPopMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5ADEC61F2F186F0031193B /* KBPopMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPopMenuViewTests.m; sourceTree = "<group>"; };
+		CD5ADEC81F2F186F0031193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5ADECD1F2F186F0031193B /* KBPopMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBPopMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5ADED11F2F186F0031193B /* KBPopMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBPopMenuViewUITests.m; sourceTree = "<group>"; };
+		CD5ADED31F2F186F0031193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5ADEDF1F2F18F00031193B /* KBPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPopMenuView.h; sourceTree = "<group>"; };
+		CD5ADEE01F2F18F00031193B /* KBPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPopMenuView.m; sourceTree = "<group>"; };
+		CD7243541F308E9A00FB7A43 /* KBRectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBRectConst.h; sourceTree = "<group>"; };
+		CD7243551F308E9A00FB7A43 /* KBRectConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBRectConst.m; sourceTree = "<group>"; };
+		CD8935A51F346FD100A99332 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		CD8935A61F346FD100A99332 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		CD8935A81F34713700A99332 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = ../TestView.h; sourceTree = "<group>"; };
+		CD8935A91F34713700A99332 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = ../TestView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5ADEA61F2F186F0031193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADEBF1F2F186F0031193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADECA1F2F186F0031193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5ADEA01F2F186F0031193B = {
+			isa = PBXGroup;
+			children = (
+				CD5ADEAB1F2F186F0031193B /* KBPopMenuView */,
+				CD5ADEC51F2F186F0031193B /* KBPopMenuViewTests */,
+				CD5ADED01F2F186F0031193B /* KBPopMenuViewUITests */,
+				CD5ADEAA1F2F186F0031193B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5ADEAA1F2F186F0031193B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5ADEA91F2F186F0031193B /* KBPopMenuView.app */,
+				CD5ADEC21F2F186F0031193B /* KBPopMenuViewTests.xctest */,
+				CD5ADECD1F2F186F0031193B /* KBPopMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5ADEAB1F2F186F0031193B /* KBPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				CD8935A51F346FD100A99332 /* TestVC.h */,
+				CD8935A61F346FD100A99332 /* TestVC.m */,
+				CD8935A81F34713700A99332 /* TestView.h */,
+				CD8935A91F34713700A99332 /* TestView.m */,
+				CD5ADEAF1F2F186F0031193B /* AppDelegate.h */,
+				CD5ADEB01F2F186F0031193B /* AppDelegate.m */,
+				CD5ADEB21F2F186F0031193B /* ViewController.h */,
+				CD5ADEB31F2F186F0031193B /* ViewController.m */,
+				CD5ADEB51F2F186F0031193B /* Main.storyboard */,
+				CD5ADEB81F2F186F0031193B /* Assets.xcassets */,
+				CD5ADEBA1F2F186F0031193B /* LaunchScreen.storyboard */,
+				CD5ADEBD1F2F186F0031193B /* Info.plist */,
+				CD5ADEAC1F2F186F0031193B /* Supporting Files */,
+				CD5ADEDF1F2F18F00031193B /* KBPopMenuView.h */,
+				CD5ADEE01F2F18F00031193B /* KBPopMenuView.m */,
+				CD7243541F308E9A00FB7A43 /* KBRectConst.h */,
+				CD7243551F308E9A00FB7A43 /* KBRectConst.m */,
+				CD3DC4B91F31685D00588614 /* KBPopMenuPath.h */,
+				CD3DC4BA1F31685D00588614 /* KBPopMenuPath.m */,
+			);
+			path = KBPopMenuView;
+			sourceTree = "<group>";
+		};
+		CD5ADEAC1F2F186F0031193B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5ADEAD1F2F186F0031193B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD5ADEC51F2F186F0031193B /* KBPopMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5ADEC61F2F186F0031193B /* KBPopMenuViewTests.m */,
+				CD5ADEC81F2F186F0031193B /* Info.plist */,
+			);
+			path = KBPopMenuViewTests;
+			sourceTree = "<group>";
+		};
+		CD5ADED01F2F186F0031193B /* KBPopMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5ADED11F2F186F0031193B /* KBPopMenuViewUITests.m */,
+				CD5ADED31F2F186F0031193B /* Info.plist */,
+			);
+			path = KBPopMenuViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5ADEA81F2F186F0031193B /* KBPopMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5ADED61F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuView" */;
+			buildPhases = (
+				CD5ADEA51F2F186F0031193B /* Sources */,
+				CD5ADEA61F2F186F0031193B /* Frameworks */,
+				CD5ADEA71F2F186F0031193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBPopMenuView;
+			productName = KBPopMenuView;
+			productReference = CD5ADEA91F2F186F0031193B /* KBPopMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5ADEC11F2F186F0031193B /* KBPopMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5ADED91F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuViewTests" */;
+			buildPhases = (
+				CD5ADEBE1F2F186F0031193B /* Sources */,
+				CD5ADEBF1F2F186F0031193B /* Frameworks */,
+				CD5ADEC01F2F186F0031193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5ADEC41F2F186F0031193B /* PBXTargetDependency */,
+			);
+			name = KBPopMenuViewTests;
+			productName = KBPopMenuViewTests;
+			productReference = CD5ADEC21F2F186F0031193B /* KBPopMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5ADECC1F2F186F0031193B /* KBPopMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5ADEDC1F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuViewUITests" */;
+			buildPhases = (
+				CD5ADEC91F2F186F0031193B /* Sources */,
+				CD5ADECA1F2F186F0031193B /* Frameworks */,
+				CD5ADECB1F2F186F0031193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5ADECF1F2F186F0031193B /* PBXTargetDependency */,
+			);
+			name = KBPopMenuViewUITests;
+			productName = KBPopMenuViewUITests;
+			productReference = CD5ADECD1F2F186F0031193B /* KBPopMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5ADEA11F2F186F0031193B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kobe;
+				TargetAttributes = {
+					CD5ADEA81F2F186F0031193B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CD5ADEC11F2F186F0031193B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5ADEA81F2F186F0031193B;
+					};
+					CD5ADECC1F2F186F0031193B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD5ADEA81F2F186F0031193B;
+					};
+				};
+			};
+			buildConfigurationList = CD5ADEA41F2F186F0031193B /* Build configuration list for PBXProject "KBPopMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5ADEA01F2F186F0031193B;
+			productRefGroup = CD5ADEAA1F2F186F0031193B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5ADEA81F2F186F0031193B /* KBPopMenuView */,
+				CD5ADEC11F2F186F0031193B /* KBPopMenuViewTests */,
+				CD5ADECC1F2F186F0031193B /* KBPopMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5ADEA71F2F186F0031193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5ADEBC1F2F186F0031193B /* LaunchScreen.storyboard in Resources */,
+				CD5ADEB91F2F186F0031193B /* Assets.xcassets in Resources */,
+				CD5ADEB71F2F186F0031193B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADEC01F2F186F0031193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADECB1F2F186F0031193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5ADEA51F2F186F0031193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8935AA1F34713700A99332 /* TestView.m in Sources */,
+				CD5ADEB41F2F186F0031193B /* ViewController.m in Sources */,
+				CD5ADEB11F2F186F0031193B /* AppDelegate.m in Sources */,
+				CD5ADEE11F2F18F00031193B /* KBPopMenuView.m in Sources */,
+				CD8935A71F346FD100A99332 /* TestVC.m in Sources */,
+				CD5ADEAE1F2F186F0031193B /* main.m in Sources */,
+				CD3DC4BB1F31685D00588614 /* KBPopMenuPath.m in Sources */,
+				CD7243561F308E9A00FB7A43 /* KBRectConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADEBE1F2F186F0031193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5ADEC71F2F186F0031193B /* KBPopMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5ADEC91F2F186F0031193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5ADED21F2F186F0031193B /* KBPopMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5ADEC41F2F186F0031193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5ADEA81F2F186F0031193B /* KBPopMenuView */;
+			targetProxy = CD5ADEC31F2F186F0031193B /* PBXContainerItemProxy */;
+		};
+		CD5ADECF1F2F186F0031193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5ADEA81F2F186F0031193B /* KBPopMenuView */;
+			targetProxy = CD5ADECE1F2F186F0031193B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5ADEB51F2F186F0031193B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5ADEB61F2F186F0031193B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5ADEBA1F2F186F0031193B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5ADEBB1F2F186F0031193B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5ADED41F2F186F0031193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD5ADED51F2F186F0031193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5ADED71F2F186F0031193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBPopMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD5ADED81F2F186F0031193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KBPopMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD5ADEDA1F2F186F0031193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBPopMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBPopMenuView.app/KBPopMenuView";
+			};
+			name = Debug;
+		};
+		CD5ADEDB1F2F186F0031193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBPopMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBPopMenuView.app/KBPopMenuView";
+			};
+			name = Release;
+		};
+		CD5ADEDD1F2F186F0031193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBPopMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBPopMenuView;
+			};
+			name = Debug;
+		};
+		CD5ADEDE1F2F186F0031193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBPopMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kobe.KBPopMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBPopMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5ADEA41F2F186F0031193B /* Build configuration list for PBXProject "KBPopMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5ADED41F2F186F0031193B /* Debug */,
+				CD5ADED51F2F186F0031193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5ADED61F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5ADED71F2F186F0031193B /* Debug */,
+				CD5ADED81F2F186F0031193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5ADED91F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5ADEDA1F2F186F0031193B /* Debug */,
+				CD5ADEDB1F2F186F0031193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5ADEDC1F2F186F0031193B /* Build configuration list for PBXNativeTarget "KBPopMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5ADEDD1F2F186F0031193B /* Debug */,
+				CD5ADEDE1F2F186F0031193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5ADEA11F2F186F0031193B /* Project object */;
+}
