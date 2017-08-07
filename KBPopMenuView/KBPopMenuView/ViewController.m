@@ -15,7 +15,7 @@
 {
     KBPopMenuView *menu;
     UIView *view;
-    UIButton *btn;
+    UIButton *btn1;
 }
 @end
 
@@ -25,11 +25,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    btn = [UIButton buttonWithType:0];
-    btn.frame = CGRectMake(100, 280, 100, 100);
-    [btn addTarget:self action:@selector(touchBtn:) forControlEvents:UIControlEventTouchUpInside];
-    btn.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:btn];
+    btn1 = [UIButton buttonWithType:0];
+    btn1.frame = CGRectMake(100, 280, 100, 100);
+    [btn1 addTarget:self action:@selector(touchBtn:) forControlEvents:UIControlEventTouchUpInside];
+    btn1.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:btn1];
     
     
     
@@ -38,9 +38,9 @@
 
 - (void)touchBtn:(UIButton *)btn{
 //       menu = [KBPopMenuView showMenuAtPoint:CGPointMake(100, 300)];
-//        menu = [KBPopMenuView showMenuRelyOnView:btn];
-//    menu.arrowDirection = KBPopMenuArrowDirectionLeft;
-    menu.priorityArrowDirection = KBPopMenuPriorityArrowDirectionRight;
+        menu = [KBPopMenuView showMenuRelyOnView:btn1 viewSize:CGSizeMake(100, 220)];
+//    menu.arrowDirection = KBPopMenuPriorityArrowDirectionRight;
+    menu.priorityArrowDirection = KBPopMenuPriorityArrowDirectionLeft;
 }
 
 - (void)didReceiveMemoryWarning {

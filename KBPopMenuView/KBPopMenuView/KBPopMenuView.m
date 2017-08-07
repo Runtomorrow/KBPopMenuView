@@ -59,7 +59,7 @@
 
 + (KBPopMenuView *)showMenuRelyOnView:(UIView *)view viewSize:(CGSize)size{
     CGRect absoluteRect = [view convertRect:view.bounds toView:KBMainWindow];
-    CGPoint relyPoint = CGPointMake(absoluteRect.origin.x, absoluteRect.origin.y + absoluteRect.size.height);
+    CGPoint relyPoint = CGPointMake(absoluteRect.origin.x + absoluteRect.size.width / 2, absoluteRect.origin.y + absoluteRect.size.height);
     KBPopMenuView *kBPopMenuView = [[KBPopMenuView alloc] init];
     kBPopMenuView.atPoint = relyPoint;
     kBPopMenuView.relyRect = absoluteRect;
@@ -161,7 +161,7 @@
             _isChangeArrowDirection = NO;
         }
     }else if (_priorityArrowDirection == KBPopMenuPriorityArrowDirectionLeft){
-        if (_atPoint.x + frameW + _arrowHeight > KBScreenWidth - kMinSpace) {
+        if (_relyRect.origin.x + frameW + _arrowHeight > KBScreenWidth - kMinSpace) {
             _arrowDirection = KBPopMenuArrowDirectionRight;
             _isChangeArrowDirection = YES;
         }else{
@@ -170,13 +170,14 @@
         }
     }else if (_priorityArrowDirection == KBPopMenuPriorityArrowDirectionRight){
         
-        if (_atPoint.x - frameW - _arrowHeight < kMinSpace) {
+        if (_relyRect.origin.x - frameW - _arrowHeight < kMinSpace) {
             _arrowDirection = KBPopMenuArrowDirectionLeft;
             _isChangeArrowDirection = YES;
         }else{
             _arrowDirection = KBPopMenuArrowDirectionRight;
             _isChangeArrowDirection = NO;
         }
+        
     }
     
     
@@ -211,9 +212,9 @@
         }
     }else if (_arrowDirection == KBPopMenuArrowDirectionLeft){
         CGFloat x = _isChangeArrowDirection ? _atPoint.x : _atPoint.x;
-        if (_arrowPosition < _itemHeight / 2) {
+        if (_arrowPosition < _itemHeight / 2 + _borderWidth) {
             self.frame = CGRectMake(x, _atPoint.y - _arrowPosition, frameW + _arrowHeight, frameH);
-        }else if (_arrowPosition > _itemHeight / 2){
+        }else if (_arrowPosition > _itemHeight / 2 + _borderWidth){
             self.frame = CGRectMake(x, _atPoint.y - _arrowPosition, frameW + _arrowHeight, frameH);
         }else{
             self.frame = CGRectMake(x, _atPoint.y - _arrowPosition, frameW + _arrowHeight, frameH);
